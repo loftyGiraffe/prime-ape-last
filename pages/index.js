@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0xf60E244799f45ddE7e0708097C2b8729Ab66DcF5",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.2,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.25,
         });
     };
     return (
