@@ -148,7 +148,7 @@ export default function Home() {
                         fontWeight: '500',
                     }}
                     min="1"
-                    max="5"
+                    max="2"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Prime Ape(s)</div>
