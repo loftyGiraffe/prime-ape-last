@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Presale Winner #694
+                    Raffle Winner #694
                 </div>
             </div>
             <div
