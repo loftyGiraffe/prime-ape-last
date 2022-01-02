@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Raffle Winner #694
+                    Bonus Mint - user #694
                 </div>
             </div>
             <div
