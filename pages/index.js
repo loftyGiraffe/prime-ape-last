@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    BONUS SALE - user #694
+                    BONUS MINT - user #694
                 </div>
             </div>
             <div
