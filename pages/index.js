@@ -32,7 +32,7 @@ export default function Home() {
         console.log("dasdas", value, typeof value);
         web3.eth.sendTransaction({
             from: account,
-            to: "0x50875200aE26168dcEa320B87A0D0B3bBC6a4aA2",
+            to: "0xA025FBe45e7751397aa7C9a63e3745Ee24123f01",
             value: web3.utils.toWei(value.toString(), "ether") * 0.25,
         });
     };
