@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    PRE-REVEAL MINT - user #694
+                    BONUS SALE - user #694
                 </div>
             </div>
             <div
