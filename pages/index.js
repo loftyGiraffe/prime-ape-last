@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Congratulations! You can mint
+                    BONUS MINT - USER #694
                 </div>
             </div>
             <div
