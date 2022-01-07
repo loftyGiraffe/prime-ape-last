@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Raffle Winner #951
+                    Bonus Mint
                 </div>
             </div>
             <div
@@ -110,7 +110,7 @@ export default function Home() {
                 }}
             >
                 {active && account
-                    ? `Wallet Connected: ${account}`
+                    ? `Raffle Winner #951: ${account}`
                     : "Click to connect with MetaMask"}
             </button>
             <div
