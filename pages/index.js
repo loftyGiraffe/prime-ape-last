@@ -82,7 +82,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    BONUS MINT
+                    Raffle Winner #951
                 </div>
             </div>
             <div
